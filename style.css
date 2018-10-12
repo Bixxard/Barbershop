@@ -1,0 +1,224 @@
+/* div, ul, li, input{
+    border: 1px solid yellow;
+    
+} */
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    color: white;
+    font-family: 'PT Sans Narrow';
+    font-weight: bold;
+}
+
+.head{
+    background: black;  
+    height: 72px;
+}
+.head-line{
+    width: 940px;
+    height: 72px;
+    margin: 0 auto;
+    padding-top: 25px;   
+}
+.ul-line{
+    height: 72px; 
+    font-size: 16px;
+    margin: 0;
+    list-style: none;
+}
+.ul-line li{
+    display: inline;
+    margin-right: 20px;
+}
+.ul-line li a{
+    color: white;
+    text-decoration: none;
+}
+.login{
+    float: right;
+}
+.newsbutton{
+    background-color: black; 
+    display: inline-block;
+    padding: 20px 30px; 
+    text-decoration: none; 
+    color: white; 
+}
+.login img{
+    margin-right: 5px; 
+}
+
+.main{
+    width: 940px;
+    margin: auto;   
+}
+
+.big-logo-img{
+    text-align: center;
+    padding: 60px;
+}
+
+.logo-content{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.midl-text{
+    font-size: 15px;
+    line-height: 2;
+}
+.content{
+    height: 200px;
+    width: 300px;
+}
+
+.big-logo-text{
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.logo-text{
+    text-align: center;
+}
+
+.romb{
+    font-size: 20px;
+    text-align: center;
+}
+
+.up-block{
+    display: flex;
+    background: white;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.slidebtn{
+    margin-top: 0px;
+    background-color: black;
+    display: inline-block;
+    padding: 20px 65px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.left-up-block{
+    width: 50%;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.right-up-block{
+    width: 50%;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.up-left-text{
+    font-size: 30px;
+    margin-top : 20px;
+    margin-bottom: 20px;
+}
+.up-right-text{
+    font-size: 30px;
+    margin-top : 20px;
+    margin-bottom: 20px;
+}
+.input p{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.bottom-block{
+    display: flex;
+    background: white;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.left-bottom-block{
+    width: 50%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.right-bottom-block{
+    width: 50%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.bottom-left-text{
+    font-size: 30px;
+    margin-top : 20px;
+    margin-bottom: 20px;
+}
+.bottom-right-text{
+    font-size: 30px;
+    margin-top : 20px;
+    margin-bottom: 20px;
+}
+.btn-left-block{
+    background-color: black; 
+    display: inline-block;
+    padding: 20px 47px;
+    text-decoration: none; 
+    color: white;  
+    margin-top: 30px;
+}
+.btn-right-block{
+    background-color: black;
+    display: inline-block;
+    padding: 20px 140px;
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.input-up{
+    display: flex;
+}
+.input-up-left{
+    width: 50%;
+}
+.input-up-right{
+    width: 50%;
+}
+.input-bottom{
+    display: flex;
+}
+.input-bottom-left{
+    width: 50%;
+}
+.input-bottom-right{
+    width: 50%;
+    
+}
+.allinput{
+    border: 2px solid black;
+    width: 150px;
+    height: 50px
+}
+.footer{
+    background-color: #1f1f1f;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.serch{
+    background-color: black; 
+    display: inline-block;
+    padding: 10px 15px; 
+    text-decoration: none; 
+    color: white; 
+}
+.academibtn{
+    background-color: black; 
+    display: inline-block;
+    padding: 20px 30px; 
+    text-decoration: none; 
+    color: white; 
+}
+.footer-img{
+    margin-left: 10px;
+}
